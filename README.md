@@ -27,15 +27,16 @@ input_video.mp4
 Run:
 python main.py
 
-📂 Output Generated
+📂 Output Generated:
 output/tracked_output.mp4 → Annotated output video
 output/object_summary.csv → Summary statistics
 
-⚠️ Limitations
+⚠️ Limitations:
 Simple centroid tracker may assign new IDs if objects move abruptly or detection fluctuates.
 No model fine-tuning performed (pretrained weights used).
 
-📈 Future Improvements
+📈 Future Improvements:
 Use advanced tracking algorithms (DeepSORT, ByteTrack)
 Fine-tune detection model for specific datasets
 Real-time analytics dashboard integration
+
